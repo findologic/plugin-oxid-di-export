@@ -1,0 +1,102 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1f77b6a4b5834bed1bcd760f370652be",
+    "packages": [
+        {
+            "name": "findologic/libflexport",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/findologic/libflexport.git",
+                "reference": "775f5867f0616356be20af05c8a7ee9a1d02b7a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/findologic/libflexport/zipball/775f5867f0616356be20af05c8a7ee9a1d02b7a7",
+                "reference": "775f5867f0616356be20af05c8a7ee9a1d02b7a7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "v2.8.2",
+                "phpunit/phpunit": "~5.7",
+                "symfony/console": "v3.2.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FINDOLOGIC\\Export": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Ortner",
+                    "email": "chris@codexfons.com",
+                    "role": "maintainer"
+                },
+                {
+                    "name": "Dominik Brader",
+                    "email": "d.brader@findologic.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Markus Machatschek",
+                    "email": "mmachatschek@yahoo.com",
+                    "role": "maintainer"
+                }
+            ],
+            "description": "FINDOLOGIC export toolkit for XML and CSV data export",
+            "homepage": "https://github.com/findologic/libflexport",
+            "time": "2019-03-19T10:49:20+00:00"
+        },
+        {
+            "name": "findologic/xml-export-schema",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/findologic/xml-export.git",
+                "reference": "db32026a8d2deac3084af2ddf8b984623f315325"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/findologic/xml-export/zipball/db32026a8d2deac3084af2ddf8b984623f315325",
+                "reference": "db32026a8d2deac3084af2ddf8b984623f315325",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FINDOLOGIC\\Export\\": "src/main/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FINDOLOGIC Developers",
+                    "email": "devops@findologic.com"
+                }
+            ],
+            "description": "XML schema for the FINDOLOGIC XML export format.",
+            "time": "2020-07-02T08:38:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
