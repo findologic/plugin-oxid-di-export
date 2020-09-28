@@ -12,10 +12,9 @@ $sMetadataVersion = '1.2';
  */
 $aModule = [
     'id' => 'findologic_export_module',
-    'title' => 'Findologic Export Plugin',
+    'title' => 'Findologic - Export',
     'description' => [
-        'de' => '<h1>Findologic - Search & Navigation Platform</h1>
-                 <p>Findologic entwickelt seit 2008 moderne Software-Lösungen für Online-Shops und gehört weltweit zu den führenden Anbietern in diesem Bereich.</p>
+        'de' => '<p>Findologic entwickelt seit 2008 moderne Software-Lösungen für Online-Shops und gehört weltweit zu den führenden Anbietern in diesem Bereich.</p>
                  <p>Was für den stationären Kunden der kompetente Fachverkäufer – ist für den Online-Shopper die digitale Shopping Assistenz. Genau hierauf zielen unsere einzigartigen Ansätze ab. Am Puls der Zeit gehen wir gemeinsam mit unseren Technologiepartnern, Agenturen, Shopsystemen & Kunden, in unvergleichlicher Effizienz, neue Wege. Wir durchdenken Prozesse und Lösungen radikal neu, sodass es kaum individuellen Aufwand und Einstellungsmöglichkeiten bedarf. Unsere Plattform und Produkte passen sich im Grunde automatisch dem Online-Shop an, was Wartung und Support vehement verringert und gleichermaßen Flexibilität, Einsatzfähigkeit und Kundennähe signifikant erhöht.</p>
                  <p>Das verschafft uns eine rasante und kosteneffiziente Weiterentwicklung, was auch Kunden in Qualität und Preis zu Gute kommt. Die intelligenten Technologien von Findologic sorgen im Rahmen einer ganzheitlichen Customer Journey und den wichtigsten Hebeln für zufriedenere Kunden in Online-Shops und verbessern die User Experience.</p>
                  <p>Wir unterscheiden uns durch zwei maßgebliche Faktoren von anderer Software: Disruptive Ansätze und Service First Ausrichtung.</p>
@@ -27,8 +26,7 @@ $aModule = [
                     <li><b>User Interface:</b> Eine Einbindung direkt in Ihr Frontend, revolutioniert Ihre Kundeninteraktionen. Garantiert.</li>
                     <li><b>Merchandising:</b> Das revolutionäre Backend mit unseren speziell entwickelten Tools zur effizienten Marketing Steuerung. Mit unserern Rankingmöglichkeiten lassen sich Ihre Produkte nach Kriterien wie Verfügbarkeit, Marge oder Neuheiten nach Ihren Wünschen pushen.</li>
                 </ul>',
-        'en' => '<h1>Findologic - Search & Navigation Platform</h1>
-                <p>Findologic has been developing modern software solutions for online shops since 2008 and is one of the world’s leading providers today.</p>
+        'en' => '<p>Findologic has been developing modern software solutions for online shops since 2008 and is one of the world’s leading providers today.</p>
                 <p>Just as a helpful sales assistant completes the shopping experience for the in-store customer – so the digital shopping assistant supports and serves the online shopper. This is exactly where our unique approach helps ecommerce businesses. We keep our finger on the pulse with our technology partners, agencies, shop systems and customers - with unparalleled results. We radically rethink processes and solutions, so that set up is simple and effortless. Our platform and products automatically adapt to the online shop, which drastically reduces maintenance and support, and at the same time significantly increases flexibility, usability and customer proximity.</p>
                 <p>This also benefits customers in terms of quality and price. As part of a holistic customer journey intelligent technologies from Findologic greatly improve the user experience, leading to satisfied customers.</p>
                 <p>We differ from other software in two key ways: Our disruptive approaches and our service first orientation.</p>
@@ -45,7 +43,6 @@ $aModule = [
     'author' => 'FINDOLOGIC GmbH',
     'url' => 'https://www.findologic.com',
     'email' => 'support@findologic.com',
-    'copyright' => 'Copyright © ' . date('Y') . ', FINDOLOGIC GmbH',
     'thumbnail' => 'plugin.png',
     'extend' => [
         // Controllers
