@@ -72,6 +72,5 @@ $aModule = [
             'block'=>'admin_module_config_group',
             'file'=>'/views/blocks/tpl/module_config.tpl'
         ]
-    ],
-    'settings' => $shopKeys
+    ]
 ];
